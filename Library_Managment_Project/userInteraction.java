@@ -1,6 +1,4 @@
 package Library_Managment_Project;
-
-import javax.swing.*;
 import java.util.InputMismatchException;
 
 public class userInteraction extends bookIssueSystem{
@@ -15,6 +13,10 @@ public class userInteraction extends bookIssueSystem{
             if (option > 0 && option <= 6){
                 switch (option) {
                     case 1 -> printAllBooks();
+                    case 2 -> {
+                        System.out.println("Unissued Books In Thi Library");
+                        bis.printUnissuedBooks();
+                    }
                     case 3 -> {
                         lb.searchBook();
                         int choice = inp.nextInt();
@@ -48,6 +50,7 @@ public class userInteraction extends bookIssueSystem{
                     }
                     case 4 -> {
                         System.out.println("Welcome Writer Please Fill Up The Info. Below:");
+                        inp.nextLine();
                         System.out.print("Enter The Book Author Name : ");
                         inp.nextLine();
                         String userAuthor = inp.nextLine();
@@ -62,14 +65,19 @@ public class userInteraction extends bookIssueSystem{
                         lb.bookIssueSystem();
                         System.out.print("-->");
                         int choice = inp.nextInt();
-                        switch (choice){
-                            case 1:
+                        switch (choice) {
+                            case 1 -> {
+                                String date = ldt.format(dtf);
                                 System.out.println("Welcome Learner Feel Free To Issue Any Book :");
+                                inp.nextLine();
                                 System.out.print("Enter The Book Code : ");
                                 int bookCode = inp.nextInt();
-                                bis.getBook(bookCode);
-                            case 3:
-                                bis.feedBack();
+                                inp.nextLine();
+                                System.out.print("Enter Your Name : ");
+                                userName = inp.nextLine();
+                                bis.getBook(bookCode,date,userName);
+                            }
+                            case 3 -> bis.feedBack();
                         }
 
                     }

@@ -19,11 +19,12 @@ public class Interface_Classes {
         public static String userName = "";
         public static String issue = "";
         public static String issueType = "";
-        LocalDateTime ldt = LocalDateTime.now();
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy || HH : mm");
+        static LocalDateTime ldt = LocalDateTime.now();
+        static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy || HH : mm");
         public static Scanner inp = new Scanner(System.in);
         public static int choice,bookCode;
         public static String bookName,bookAuthor;
+        public static String updatedBookInfo;
 
         @Override
         public void mainMenu(){
