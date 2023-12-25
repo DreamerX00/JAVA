@@ -7,6 +7,7 @@ interface searchMethods{
     List<String> searchByAuthor(String Name);
     List<String> searchByName(String Name);
 }
+
 public class searchingMethod extends activateAllBooks implements searchMethods {
     public void searchByCode(int code) {
         if (sb.actionAndAdventure.containsKey(code)) {
@@ -356,7 +357,50 @@ public class searchingMethod extends activateAllBooks implements searchMethods {
 
         return allGenreMaps;
     }
+    public Map<Integer, String> StoredBooks() {
+        Map<Integer, String> allGenre = new HashMap<>();
+        allGenre.putAll(sb.actionAndAdventure);
+        allGenre.putAll(sb.classics);
+        allGenre.putAll(sb.comicBooksOrGraphicNovel);
+        allGenre.putAll(sb.detectiveAndMystery);
+        allGenre.putAll(sb.fantasy);
+        allGenre.putAll(sb.historicalFiction);
+        allGenre.putAll(sb.horror);
+        allGenre.putAll(sb.romance);
+        allGenre.putAll(sb.scienceFiction);
+        allGenre.putAll(sb.shortStories);
+        allGenre.putAll(sb.suspenseAndThrillers);
+        allGenre.putAll(sb.biographiesAndAutobiographies);
+        allGenre.putAll(sb.cookbooks);
+        allGenre.putAll(sb.poetry);
+        allGenre.putAll(sb.selfHelpAndPersonalDevelopment);
+        allGenre.putAll(sb.drama);
+        allGenre.putAll(sb.science);
+        allGenre.putAll(sb.philosophy);
+        allGenre.putAll(sb.children);
+        allGenre.putAll(sb.youngAdult);
+        allGenre.putAll(sb.mystery);
+        allGenre.putAll(sb.historicalNonFiction);
+        allGenre.putAll(sb.businessAndFinance);
+        allGenre.putAll(sb.healthAndFitness);
+        allGenre.putAll(sb.artAndPhotography);
+        allGenre.putAll(sb.music);
+        allGenre.putAll(sb.sportsAndOutdoors);
+        allGenre.putAll(sb.educationAndReference);
+        allGenre.putAll(sb.religionAndSpirituality);
+        allGenre.putAll(sb.parentingAndFamily);
+        allGenre.putAll(sb.trueCrime);
+        allGenre.putAll(sb.technologyAndComputing);
+        allGenre.putAll(sb.psychology);
+        allGenre.putAll(sb.sociology);
+        allGenre.putAll(sb.politicalScience);
+        allGenre.putAll(sb.mythology);
+        allGenre.putAll(sb.paranormal);
+        allGenre.putAll(sb.travel);
+        allGenre.putAll(sb.humor);
 
+        return allGenre;
+    }
 
 }
 

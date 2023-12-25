@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 
 interface systemMap{
     void addBook(String Name,String Author,int code);
@@ -196,15 +197,26 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
         String userName = "";
         String issueDate;
         issueDate = dt.format(format);
-        if (checkStatus()){
-            System.out.print("Enter Your Name : ");
+        String bookTitle,updatedBookInfo = "";
+
+        Map<Integer, String> storedBooks = StoredBooks(); // Retrieve the map once
+
+        if (!checkStatus(storedBooks, code)) {
+            inp.nextLine();
+            System.out.print("Enter Your Name: ");
             userName = inp.nextLine();
-            String bookTitle = StoredBooks().get(code);
-            String updatedBookInfo = bookTitle + ("Issued to: " + userName + " on : "+issueDate);
-            StoredBooks().put(code, updatedBookInfo);
+
+            bookTitle = storedBooks.get(code);
+            updatedBookInfo = bookTitle + ("Issued To: " + userName + " on: " + issueDate);
+
+            // Update the book information in the storedBooks map directly
+            storedBooks.put(code, updatedBookInfo);
+
+            System.out.println("Congratulations " + storedBooks.get(code));
+        } else {
+            System.out.println("Book Already Issued To User: " + userName + " On " + issueDate);
         }
-        else
-            System.out.println("Book Already Issued To User : "+userName+" On "+issueDate);
+        storedBooks.put(code, updatedBookInfo);
     }
 
     @Override
@@ -228,52 +240,9 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
 
     }
 
-    private boolean checkStatus(){
-        return !StoredBooks().containsValue(" Issued to: user");
-    }
-    public Map<Integer, String> StoredBooks() {
-        Map<Integer, String> allGenre = new HashMap<>();
-        allGenre.putAll(sb.actionAndAdventure);
-        allGenre.putAll(sb.classics);
-        allGenre.putAll(sb.comicBooksOrGraphicNovel);
-        allGenre.putAll(sb.detectiveAndMystery);
-        allGenre.putAll(sb.fantasy);
-        allGenre.putAll(sb.historicalFiction);
-        allGenre.putAll(sb.horror);
-        allGenre.putAll(sb.romance);
-        allGenre.putAll(sb.scienceFiction);
-        allGenre.putAll(sb.shortStories);
-        allGenre.putAll(sb.suspenseAndThrillers);
-        allGenre.putAll(sb.biographiesAndAutobiographies);
-        allGenre.putAll(sb.cookbooks);
-        allGenre.putAll(sb.poetry);
-        allGenre.putAll(sb.selfHelpAndPersonalDevelopment);
-        allGenre.putAll(sb.drama);
-        allGenre.putAll(sb.science);
-        allGenre.putAll(sb.philosophy);
-        allGenre.putAll(sb.children);
-        allGenre.putAll(sb.youngAdult);
-        allGenre.putAll(sb.mystery);
-        allGenre.putAll(sb.historicalNonFiction);
-        allGenre.putAll(sb.businessAndFinance);
-        allGenre.putAll(sb.healthAndFitness);
-        allGenre.putAll(sb.artAndPhotography);
-        allGenre.putAll(sb.music);
-        allGenre.putAll(sb.sportsAndOutdoors);
-        allGenre.putAll(sb.educationAndReference);
-        allGenre.putAll(sb.religionAndSpirituality);
-        allGenre.putAll(sb.parentingAndFamily);
-        allGenre.putAll(sb.trueCrime);
-        allGenre.putAll(sb.technologyAndComputing);
-        allGenre.putAll(sb.psychology);
-        allGenre.putAll(sb.sociology);
-        allGenre.putAll(sb.politicalScience);
-        allGenre.putAll(sb.mythology);
-        allGenre.putAll(sb.paranormal);
-        allGenre.putAll(sb.travel);
-        allGenre.putAll(sb.humor);
-
-        return allGenre;
+    private boolean checkStatus(Map<Integer, String> storedBooks, int code) {
+        // Check if the book information contains the username (indicating it's already issued)
+        return storedBooks.get(code).contains("Issued To : ");
     }
 
 }
