@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 interface systemMap{
     void addBook(String Name,String Author,int code);
     void getBook(int code);
-    void feedBack(String userName,String issueType,String issue,String Date);
+    void feedBack();
 }
 public class bookIssueSystem extends searchingMethod implements systemMap{
     @Override
@@ -220,7 +220,7 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
     }
 
     @Override
-    public void feedBack(String userName, String issueType, String issue, String Date) {
+    public void feedBack() {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy || HH : mm");
         System.out.print("""
@@ -230,13 +230,14 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
                 """);
         Date = now.format(format);
         System.out.println("Current Time "+Date);
+        inp.nextLine();
         System.out.print("Enter Your Name : ");
         userName = inp.nextLine();
         System.out.print("Enter The Type of Issue / Appreciation / Suggestion : ");
         issueType = inp.nextLine();
         System.out.println("Type Your Statement Below :");
         issue = inp.nextLine();
-
+        System.out.println("Thanks For Your FeedBack and Have A Good Day");
 
     }
 

@@ -1,5 +1,7 @@
 package Library_Managment_Project;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Interface_Classes {
@@ -13,6 +15,12 @@ public class Interface_Classes {
         void addBook();
     }
     static class Library extends Stored_Books.Books implements Elements {
+        public static String Date = "";
+        public static String userName = "";
+        public static String issue = "";
+        public static String issueType = "";
+        LocalDateTime ldt = LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy || HH : mm");
         public static Scanner inp = new Scanner(System.in);
         public static int choice,bookCode;
         public static String bookName,bookAuthor;

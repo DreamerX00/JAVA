@@ -59,10 +59,19 @@ public class userInteraction extends bookIssueSystem{
                         bis.addBook(userBook,userAuthor,userCode);
                     }
                     case 5 -> {
-                        System.out.println("Welcome Learner Feel Free To Issue Any Book :");
-                        System.out.print("Enter The Book Code : ");
-                        int bookCode = inp.nextInt();
-                        bis.getBook(bookCode);
+                        lb.bookIssueSystem();
+                        System.out.print("-->");
+                        int choice = inp.nextInt();
+                        switch (choice){
+                            case 1:
+                                System.out.println("Welcome Learner Feel Free To Issue Any Book :");
+                                System.out.print("Enter The Book Code : ");
+                                int bookCode = inp.nextInt();
+                                bis.getBook(bookCode);
+                            case 3:
+                                bis.feedBack();
+                        }
+
                     }
                     case 6 -> {
                         System.out.println("Have a Good Day Sir !!!");
