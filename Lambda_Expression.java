@@ -1,6 +1,6 @@
 public class Lambda_Expression {
     public static void main(String[] args) {
-        // This is called Lambda Expression same as Anonymous Class but it works only on Functional Interface
+        // This is called Lambda Expression same as Anonymous Class, but it works only on Functional Interface
         // This helps in better code readability
         lamCheck Lc = ()->{
             for (int i = 0; i <= 8; i++) {
