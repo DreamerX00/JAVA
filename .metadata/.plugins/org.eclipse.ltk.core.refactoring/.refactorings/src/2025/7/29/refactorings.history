@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;CollectionFrameWork.MyComparator&apos; to &apos;MyIntegerComparator&apos;&#x0D;&#x0A;- Original project: &apos;src&apos;&#x0D;&#x0A;- Original element: &apos;CollectionFrameWork.MyComparator&apos;&#x0D;&#x0A;- Renamed element: &apos;CollectionFrameWork.MyIntegerComparator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyComparator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;CollectionFrameWork{comparatorOperations.java[MyComparator" matchStrategy="1" name="MyIntegerComparator" qualified="false" references="true" similarDeclarations="false" stamp="1752858778254" textual="false" version="1.0"/>
+</session>

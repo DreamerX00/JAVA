@@ -1,0 +1,35 @@
+package CollectionFrameWork;
+
+import java.util.*;
+
+
+public class weakHashMapOperations {
+	public static void main(String[] args) {
+		WeakHashMap<newEmployees, Integer> salaryMap = new WeakHashMap<>();
+		
+        salaryMap.put(new newEmployees("Akash", 1, Positions.CEO), 20000000);
+        salaryMap.put(new newEmployees("Priya", 2, Positions.Manager), 1200000);
+        salaryMap.put(new newEmployees("Ravi", 3, Positions.Employee), 800000);
+        salaryMap.put(new newEmployees("Sneha", 4, Positions.Intern), 300000);
+        salaryMap.put(new newEmployees("Vikram", 5, Positions.Director), 1500000);
+        salaryMap.put(new newEmployees("Meena", 6, Positions.Employee), 850000);
+        salaryMap.put(new newEmployees("Arjun", 7, Positions.Manager), 1100000);
+        salaryMap.put(new newEmployees("Kavita", 8, Positions.Intern), 320000);
+        salaryMap.put(new newEmployees("Rahul", 9, Positions.Employee), 900000);
+        salaryMap.put(new newEmployees("Neha", 10, Positions.Director), 1400000);
+        salaryMap.put(new newEmployees("Priya", 2, Positions.Manager), 1200000);
+        
+        salaryMap.forEach((x,y) -> System.out.println(x + " -> "+ y));
+	}
+	
+	void threadSimulation() {
+		try {
+			System.out.println("Timer Started");
+			 Thread.sleep(4000);
+			System.out.println("Timer Finished");
+		} catch (Exception e) {
+			 e.printStackTrace();
+		}
+
+	}
+}

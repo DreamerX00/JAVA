@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;DSA_Practice&apos; to &apos;Java_Eclipse/src&apos;&#x0D;&#x0A;- Original project: &apos;Java Assignment&apos;&#x0D;&#x0A;- Destination element: &apos;Java_Eclipse/src&apos;&#x0D;&#x0A;- Original element: &apos;Java Assignment/DSA_Practice&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Java_Eclipse/src" element1="/&lt;DSA_Practice" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1736527691504" version="1.0"/>
+</session>

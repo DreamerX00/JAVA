@@ -1,0 +1,25 @@
+package CollectionFrameWork;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueOperations {
+	public static void main(String[] args) {
+		Queue<Integer> myList = new LinkedList<>();
+		System.out.println(myList.size());
+		
+		
+		System.out.println(myList.add(3));
+		System.out.println(myList.add(6));
+		System.out.println(myList.add(2));
+		System.out.println(myList.add(4));
+		
+		System.out.println(myList.remove());
+		
+		System.out.println(myList.peek());
+		
+		
+		myList.forEach(x -> System.out.print(x + " == "));
+		System.out.print("Queue End");
+	}
+}
