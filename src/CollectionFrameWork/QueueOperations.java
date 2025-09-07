@@ -1,11 +1,9 @@
-package CollectionFrameWork;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Random;
-import static java.lang.StringTemplate.STR;
+
 
 public class QueueOperations {
 	public static void main(String[] args) {
@@ -22,6 +20,8 @@ public class QueueOperations {
 			myList.offer(random);
 			myPriorList.offer(random);
 		}
+
+
 		
 		//getting size of queue
 		System.out.println("Size After Insertion in myList -> "+myList.size());
@@ -35,8 +35,8 @@ public class QueueOperations {
 		System.out.println("Element On Top in myPriorList -> "+myPriorList.element());
 		
 		//Last Element Removed
-		System.out.println("Elexment Froxm Last Is Removed in myList -> "+myList.poll());
-		System.out.println("Elexment Froxm Last Is Removed in myPriorList -> "+myPriorList.poll());
+		System.out.println("Element From Last Is Removed in myList -> "+myList.poll());
+		System.out.println("Element From Last Is Removed in myPriorList -> "+myPriorList.poll());
 		
 	}
 }

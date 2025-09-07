@@ -3,7 +3,25 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/A2Z" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CollectionFrameWork" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/coolThings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DSA_Basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DSA_Practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Java_Advance_Practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LambdaFunctions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/MultiThreading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Mysql_codes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/practicals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Striver_SDE_Sheet" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testing_codes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practicals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Library_Managment_Project" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Mysql_codes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

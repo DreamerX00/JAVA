@@ -1,5 +1,3 @@
-package A2Z;
-
 public class LargestElement {
 	static int findLargest(int[] arr) {
 		int largest = 0;
@@ -15,5 +13,6 @@ public class LargestElement {
 	public static void main(String[] args) {
 		int[] arr = {12,2,9,88,34,81,4,6,89};
 		System.out.println("The Largest Element Is : "+ findLargest(arr));
+
 	}
 }

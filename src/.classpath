@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path=""/>
+	<classpathentry kind="src" path="A2Z"/>
+	<classpathentry kind="src" path="CollectionFrameWork"/>
+	<classpathentry kind="src" path="coolThings"/>
+	<classpathentry kind="src" path="DSA_Basics"/>
+	<classpathentry kind="src" path="DSA_Practice"/>
+	<classpathentry kind="src" path="Java_Advance_Practice"/>
+	<classpathentry kind="src" path="LambdaFunctions"/>
+	<classpathentry kind="src" path="MultiThreading"/>
+	<classpathentry kind="src" path="Mysql_codes"/>
+	<classpathentry kind="src" path="practicals"/>
+	<classpathentry kind="src" path="Striver_SDE_Sheet"/>
+	<classpathentry kind="src" path="testing_codes"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>

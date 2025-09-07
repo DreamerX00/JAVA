@@ -1,4 +1,3 @@
-package CollectionFrameWork;
 import java.util.*;
 
 public class arrayListOperations {
@@ -29,7 +28,7 @@ public class arrayListOperations {
 		System.out.println(list);
 		
 		ArrayList<Integer> myNewList = new ArrayList<>(1000);
-		// i gave it an initial Capacity;
+		// I gave it an initial Capacity;
 		
 		list.trimToSize(); //reduces extra capacity
 		

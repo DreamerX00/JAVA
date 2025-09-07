@@ -1,11 +1,11 @@
-package CollectionFrameWork;
+
 
 import java.util.LinkedList;
 
 public class linkedListOperations {
 	// implement without using any Collection FrameWork
 
-	class MyLocationNode {
+	static class MyLocationNode {
 		String location;
 		MyLocationNode nextLocationNode;
 
@@ -16,7 +16,7 @@ public class linkedListOperations {
 
 	}
 
-	class India {
+	static class India {
 
 		private MyLocationNode headLocationNode;
 
@@ -87,15 +87,11 @@ public class linkedListOperations {
 			}
 
 			MyLocationNode tempLocationNode = headLocationNode;
-			while (tempLocationNode != null && !(tempLocationNode.nextLocationNode.location.equalsIgnoreCase(target))) {
+			while (!tempLocationNode.nextLocationNode.location.equalsIgnoreCase(target)) {
 				tempLocationNode = tempLocationNode.nextLocationNode;
 			}
-			
-			if (tempLocationNode == null) {
-				System.out.println("Target Not Found");
-			}
 
-			mynewLocationNode.nextLocationNode = tempLocationNode.nextLocationNode;
+            mynewLocationNode.nextLocationNode = tempLocationNode.nextLocationNode;
 			tempLocationNode.nextLocationNode = mynewLocationNode;
 		}
 		
@@ -195,7 +191,7 @@ public class linkedListOperations {
 
 	public static void main(String[] args) {
 		linkedListOperations ops = new linkedListOperations();
-		linkedListOperations.India india = ops.new India();
+		linkedListOperations.India india = new India();
 
         String[] states = {
             "Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh", "Telangana",
