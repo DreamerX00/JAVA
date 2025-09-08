@@ -1,0 +1,484 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "linkedList",
+            "request": "launch",
+            "mainClass": "myJavaProjects/DSA_Basics.linkedList",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "pyramid_patterns",
+            "request": "launch",
+            "mainClass": "myJavaProjects/DSA_Basics.pyramid_patterns",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "searching",
+            "request": "launch",
+            "mainClass": "myJavaProjects/DSA_Basics.searching",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "median_array",
+            "request": "launch",
+            "mainClass": "myJavaProjects/DSA_Practice.median_array",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "myJavaProjects/Mysql_codes.Main",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Arrlist",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Arrlist",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Checker",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Checker",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Example_Interface",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Example_Interface",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "File_Handling",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.File_Handling",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "INTERFACE",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.INTERFACE",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Lambda_Expression",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Lambda_Expression",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Local_Time",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Local_Time",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "MiniOops",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.MiniOops",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Practice",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Practice3",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Practice3",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Practice_2",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Practice_2",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "Practice_4",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.Practice_4",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "TimeClass",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.TimeClass",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "anonymous_class",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.anonymous_class",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "arrDeque",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.arrDeque",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "arrayList",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.arrayList",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "calculator_exception",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.calculator_exception",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "exceptionClass",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.exceptionClass",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "exception_tryCatch",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.exception_tryCatch",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "finalyyy",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.finalyyy",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "hash",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.hash",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "javaAnnotations",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.javaAnnotations",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "javaDocTags",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.javaDocTags",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "menu",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.menu",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "mini",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.mini",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "nested_try",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.nested_try",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practice_5",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practice_5",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practice_set_array",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practice_set_array",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practice_set_arraylist_and_time",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practice_set_arraylist_and_time",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practice_set_errors",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practice_set_errors",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practice_set_exception",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practice_set_exception",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "practicing_handling",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.practicing_handling",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "printf_operations",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.printf_operations",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "rock",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.rock",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "test3",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.test3",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "threadConstructor",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.threadConstructor",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "threadMethods",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.threadMethods",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "threadPriority",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.threadPriority",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "thread_practice",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.thread_practice",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "threading",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.threading",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "throw_throws",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.throw_throws",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "time_calender",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.time_calender",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "time_formatter",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.time_formatter",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "updated_rock",
+            "request": "launch",
+            "mainClass": "myJavaProjects/java.updated_rock",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.GFG",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p11_employee",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p11_employee",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p12_calculator",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p12_calculator",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p13_buffer",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p13_buffer",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p14_exception",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p14_exception",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p15_database",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p15_database",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p16_RGb",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p16_RGb",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p17_game",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p17_game",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p1_rectangle",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p1_rectangle",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p2_area",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p2_area",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p3_static",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p3_static",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p4_this",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p4_this",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p5_inheritance",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p5_inheritance",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p6_Super",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p6_Super",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p7_runtime",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p7_runtime",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p8_aggregation",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p8_aggregation",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "p9_abstract",
+            "request": "launch",
+            "mainClass": "myJavaProjects/practicals.p9_abstract",
+            "projectName": "myJavaProjects"
+        },
+        {
+            "type": "java",
+            "name": "atm",
+            "request": "launch",
+            "mainClass": "myJavaProjects/testing_codes.atm",
+            "projectName": "myJavaProjects"
+        }
+    ]
+}

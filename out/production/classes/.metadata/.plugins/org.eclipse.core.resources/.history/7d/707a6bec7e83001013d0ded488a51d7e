@@ -1,0 +1,8 @@
+package MultiThreading;
+
+public class gettingStarted {
+	public static void main(String[] args) {
+		System.out.println("Hi I Called A Thread.");
+		System.out.println(Thread.currentThread().getName());
+	}
+}

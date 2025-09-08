@@ -1,0 +1,43 @@
+package DSA_Practice;
+
+public class longestCommonPrefix {
+	public static String longestCommonPrefix(String[] strs) {
+        String fp = "";
+        String sp = "";
+        String prefix = "";
+        
+        int plength = 0;
+        for(int i = 0; i< strs.length;i++){
+        	if(String.valueOf(strs[0]).isEmpty()) break;
+            fp = String.valueOf(strs[0].charAt(i));
+            System.out.println("Outer For Loop First Pointer : "+ fp);
+            String check = String.valueOf((strs[strs.length-1].charAt(i%1)));
+//            System.out.println("Outer For check last character : "+ check);
+            for(int j = 0;j<strs.length;j++){
+                sp = String.valueOf(strs[j].charAt(i));
+                System.out.println("Inner For Loop Second Pointer : "+ sp);
+                if(fp.equals(sp) && sp.equals(check) && j == (strs.length-2)){
+                    prefix += ""+sp;
+                    plength++;
+                }
+       
+            }
+        }
+        if(plength > 1) return prefix;
+        else {
+        	return "";
+        }
+    }
+	
+	public static void main(String[] args) {
+		String[] str = {"a","a"};
+		
+		System.out.println(longestCommonPrefix(str));
+		
+		
+		
+		
+		System.out.println("Ended");
+		
+	}
+}

@@ -1,0 +1,38 @@
+package MultiThreading;
+
+import java.util.Iterator;
+
+public class gettingStarted {
+	public static void main(String[] args) {
+		System.out.println("Hi I Called A Thread.");
+		System.out.println(Thread.currentThread().getName());
+		new Shop().start();
+		for(int i = 0; i < 100;i++) {
+			System.out.println("Executing This Line From Main -> "+i);
+		}
+		
+		try {
+			Thread.startVirtualThread(new Shop2());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+class Shop extends Thread{
+	@Override
+	public void run() {
+		for(int i = 0; i < 100;i++) {
+			System.out.println("Executing This Line From Shop -> "+i);
+		}
+	}
+}
+
+class Shop2 implements Runnable{
+	@Override
+	public void run() {
+		for(int i = 0; i < 100;i++) {
+			System.out.println("Executing This Line From Shop2 -> "+i);
+		}
+	}
+}

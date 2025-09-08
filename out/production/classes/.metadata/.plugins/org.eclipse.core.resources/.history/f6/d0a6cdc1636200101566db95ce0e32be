@@ -1,0 +1,39 @@
+package DSA_Practice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class threeSum {
+	
+	public static List<List<Integer>> threeSum(int[] nums) {
+		List<List<Integer>> myList = new ArrayList<>();
+		
+		int size = nums.length;
+		//first for loop for pointer i 
+		for(int i = 0; i < size; i++) {
+			//second for loop for pointer j
+			for(int j = i+1;j<size;j++) {
+				//third for loop for pointer k
+				for(int k = j+1;k < size;k++) {
+					int sum = nums[i]+nums[j]+nums[k];
+					if(sum == 0) {
+						myList.add(Arrays.asList(i,j,k));
+					}
+				}
+			}
+		}
+		
+		
+		
+		
+		
+		return myList;
+	}
+
+	public static void main(String[] args) {
+		int[] nums = {-1,0,1,2,-1,-4};
+		System.out.println(threeSum(nums));
+		System.out.println("Ended");
+	}
+}

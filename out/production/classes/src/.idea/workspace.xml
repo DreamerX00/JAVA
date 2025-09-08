@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3596c0c5-76e7-4a58-967f-53b8501361ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Library_Managment_Project/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../Library_Managment_Project/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Library_Managment_Project/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../Library_Managment_Project/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql_codes/Connect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql_codes/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mysql_codes/query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/java/6TH.JAVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/java/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/java/Temp_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/java/classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/java/lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../classes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/libraries/Java_Notes_CWH.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/Temp_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/classes/notes/Java_Complete_Notes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2Z/LargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2Z/LargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFrameWork/QueueOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFrameWork/QueueOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFrameWork/arrayListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFrameWork/arrayListOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFrameWork/linkedListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFrameWork/linkedListOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CollectionFrameWork/mapOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/CollectionFrameWork/mapOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CollectionFrameWork/photos/Screenshot 2025-07-15 150121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/myjava/6TH.JAVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/myjava/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/myjava/Temp_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/myjava/classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/myjava/lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/GarbageCollectionConcept.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/IdentityHashMapOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/LRUCacheConcept.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/LargestElement.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/LoveAnimation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/MapOperation.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/Q1752.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/Recursion.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/SecondLargestElement.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/SortCheck.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/arrayListOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/buySellStock.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/comparableOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/comparatorOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/copyOnWriteArrayListOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/hashing.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/linkedHashMapOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/linkedListOperations (1).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/linkedListOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/longestCommonPrefix.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/majorityElement.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/mapOperationsWithHashCode.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/mergeSortAlgo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/mergeSortedArray.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/pyramid_patterns (1).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/quickSort.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/realTimePrint.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/recursiveBubble.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/recursiveInsertion.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/removeDuplicates.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/reverseNumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/searching (1).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/stackOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/temp (1).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/temp (2).properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/threeSum.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/vectorOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/configs/weakHashMapOperations.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/1st.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/2nd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/3rd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/4th.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/5th.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/6TH.JAVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/7th.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/8th.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Arrlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Encaps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Example_Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/File_Handling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/INTERFACE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Lambda_Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Local_Time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/MiniOops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Practice3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Practice_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Practice_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/Temp_File.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/TimeClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/anonymous_class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/arrDeque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/arrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/calculator_exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/exceptionClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/exception_tryCatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/finalyyy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/first_swing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/hash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/javaAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/javaDocTags.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/library_management.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/lines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/mini.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/nested_try.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practice_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practice_set_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practice_set_arraylist_and_time.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practice_set_errors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practice_set_exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/practicing_handling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/printf_operations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/rock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/threadConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/threadMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/threadPriority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/thread_practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/threading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/throw_throws.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/time_calender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/time_formatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myjava/updated_rock.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DreamerX00"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DreamerX00/JAVA.git",
+    "accountId": "53c8d970-80bb-413a-be77-54fb3000f0ec"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="32MEZE2IhIhWuFtthmJ3KpTZ6ix" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA/src",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3596c0c5-76e7-4a58-967f-53b8501361ce" name="Changes" comment="" />
+      <created>1757222094776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757222094776</updated>
+      <workItem from="1757222095982" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
