@@ -7,19 +7,22 @@ public class gettingStarted {
 		System.out.println(Thread.currentThread().getName());
 		Thread t1 = new Thread(new Shop2());
 		t1.start();
-		new Shop().start();
-		for(int i = 0; i < 100;i++) {
+        System.out.println("Thread t1 -> "+t1.getState());
+		Shop sp = new Shop();
+        sp.start();
+        System.out.println("new Shop -> "+sp.getState());
+		for(int i = 0; i < 10;i++) {
 			System.out.println("Executing This Line From Main -> "+i);
 		}
-		
-		
+		System.out.println("Thread t1 -> "+t1.getState());
+		System.out.println("new Shop -> "+sp.getState());
 	}
 }
 
 class Shop extends Thread{
 	@Override
 	public void run() {
-		for(int i = 0; i < 100;i++) {
+		for(int i = 0; i < 10;i++) {
 			System.out.println("Executing This Line From Shop -> "+i);
 		}
 	}
@@ -28,7 +31,7 @@ class Shop extends Thread{
 class Shop2 implements Runnable{
 	@Override
 	public void run() {
-		for(int i = 0; i < 100;i++) {
+		for(int i = 0; i < 10;i++) {
 			System.out.println("Executing This Line From Shop2 -> "+i);
 		}
 	}
