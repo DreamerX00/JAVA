@@ -62,7 +62,7 @@ class RPS{
             System.out.println(won);
             System.out.println("Do you want to play again (Y/N): ");
             choice = sc.nextLine();
-            if (choice.equals("Y") || choice.equals("y")) {
+            if (choice.equalsIgnoreCase("Y")) {
                 System.out.println("\n----------------------");
             }
             else {
