@@ -1,24 +1,143 @@
-# Compiled class file
+# filepath: d:/JAVA/.gitignore
+# Expert-level .gitignore for Java practice projects
+# - Covers Java build artifacts, common IDE files (IntelliJ, Eclipse, NetBeans),
+#   build tools (Maven, Gradle, Ant), OS files and other common temporary files.
+# - Keep this in the repository root. Adjust or remove entries you intentionally want
+#   to keep (for example, commit the Maven wrapper if you prefer).
+
+# ----------------------
+# Java & build artifacts
+# ----------------------
+# Compiled class files
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Packed archives
 *.jar
 *.war
-*.nar
 *.ear
+# Distributables and bundles
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Maven
+/target/
+# Gradle
+/.gradle/
+/build/
+# Ant
+/bin/
+
+# ----------------------
+# IDEs
+# ----------------------
+# IntelliJ IDEA
+/.idea/
+*.iml
+/out/
+# JetBrains project files (cache, workspace)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+# Keep module libraries under .idea if intentionally committed
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/nblibraries/
+
+# VS Code
+.vscode/
+
+# ----------------------
+# OS files
+# ----------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux thumbnail files
+.nfs*
+
+# ----------------------
+# Logs, temp, and other files
+# ----------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+# IntelliJ/system caches
+.idea/**/caches
+.idea/**/localHistory
+# temporary files from editors and tools
+*.cache
+.
+# Coverage reports
+/coverage/
+/target/site/
+/jacoco.exec
+
+# ----------------------
+# Generated sources & resources
+# ----------------------
+/generated/
+/generated-sources/
+# IDE or tool generated files
+**/generated/
+**/generated-sources/
+
+# ----------------------
+# Dependency directories / Libraries
+# ----------------------
+# If you vendor external jars in a libs/ directory and want to ignore them
+/libs/*.jar
+
+# ----------------------
+# Sensitive or environment-specific
+# ----------------------
+# Local environment and credentials
+/local.properties
+/.env
+.env.local
+# Properties that may contain sensitive info
+/secrets.properties
+
+# ----------------------
+# Build tool wrappers and lockfiles
+# ----------------------
+# It's common to commit wrapper scripts but ignore their artifacts; change as needed
+.gradle/
+.gradle-cache/
+
+# ----------------------
+# Optional: keep these commented entries if you want to force-commit
+# ----------------------
+# If you intentionally want to keep maven wrapper jar, remove the next line
+#mvnw
+#mvnw.cmd
+# If you want to keep the gradle wrapper JAR, remove the next line
+#gradle-wrapper.jar
+
+# ----------------------
+# Project-specific folders seen in this workspace
+# ----------------------
+# Many Java projects include a bin/ or out/ directory that contains compiled classes
+# Ignore those to avoid committing build artifacts
+# (defined earlier; keep single canonical entries near build/tool sections)
+
+# If you use a folder name like CollectionFrameWork which you want to treat as source,
+# don't ignore it here. (Do NOT add it to this file.)
+
+# End of file
