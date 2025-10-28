@@ -37,7 +37,7 @@ public class userInteraction extends bookIssueSystem{
                                 sm.searchByCode(bookCode);
                                 break;
                             case 4:
-                                lb.Genre();
+                                lb.genre();
                                 System.out.println("Enter The Genre Number You Want");
                                 System.out.print("--> ");
                                 int genOption = inp.nextInt();
@@ -90,12 +90,8 @@ public class userInteraction extends bookIssueSystem{
             else
                 throw new invalidChoice();
         }
-        catch(invalidChoice e){
+        catch(invalidChoice | InputMismatchException e){
             System.out.println(e.getMessage());
-        }
-        catch (InputMismatchException Ime){
-            System.out.println("Don't Be Dumb Bro You Need To Type Digits not Letters");
-            inp.nextLine();
         }
     }
 }

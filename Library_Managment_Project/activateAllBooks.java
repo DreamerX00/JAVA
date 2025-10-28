@@ -2,8 +2,9 @@ package Library_Managment_Project;
 
 import java.util.Map;
 
-public class activateAllBooks extends Interface_Classes.Library {
-    static Stored_Books.Books sb = new Stored_Books.Books();
+
+public class activateAllBooks extends Library_Managment_Project.Interface_Classes.Library {
+    static Library_Managment_Project.Stored_Books.Books sb = new Stored_Books.Books();
     public static void printAllBooks() {
         activateAll();
         printBooksInGenre("Action and Adventure", sb.actionAndAdventure);

@@ -14,7 +14,7 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
     @Override
     public void addBook(String Name, String Author, int code) {
     if (checkDuplicate(code)){
-        Genre();
+        genre();
         System.out.println("Select The Genre Type ");
         int choice = inp.nextInt();
             switch (choice) {
@@ -194,7 +194,7 @@ public class bookIssueSystem extends searchingMethod implements systemMap{
         StoredBooks();
         String bookTitle;
         if (!StoredBooks().get(code).contains("Issued To")) {
-            Genre();
+            genre();
             bookTitle = " " + StoredBooks().get(code);
             updatedBookInfo = bookTitle + " Issued To " + userName + " On " + issueDate;
             System.out.print("Select The Genre :");

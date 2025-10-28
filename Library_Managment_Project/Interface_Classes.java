@@ -10,7 +10,7 @@ public class Interface_Classes {
     public interface Elements{
         void mainMenu();
         void searchBook();
-        void Genre();
+        void genre();
         void bookIssueSystem();
         void addBook();
     }
@@ -54,7 +54,7 @@ public class Interface_Classes {
         }
 
         @Override
-        public void Genre() {
+        public void genre() {
             System.out.println("""
                 ------------------------------------------------------------------------------------------------
                 1.  Action And Adventure         2.  Classics                   3.  Comic Books Or Graphic Novel
@@ -64,11 +64,11 @@ public class Interface_Classes {
                 13. Cookbooks                    14. Poetry                     15. Self-Help and Personal Development
                 16. Drama                        17. Science                    18. Philosophy
                 19. Children's                   20. Young Adult                21. Mystery
-                22. Historical Non-Fiction       23. Business and Finance       24. Health and Fitness         
-                25. Art and Photography          26. Music                      27. Sports and Outdoors        
-                28. Education and Reference      29. Religion and Spirituality  30. Parenting and Family       
-                31. True Crime                   32. Technology and Computing   33. Psychology                 
-                34. Sociology                    35. Political Science          36. Mythology                 
+                22. Historical Non-Fiction       23. Business and Finance       24. Health and Fitness        \s
+                25. Art and Photography          26. Music                      27. Sports and Outdoors       \s
+                28. Education and Reference      29. Religion and Spirituality  30. Parenting and Family      \s
+                31. True Crime                   32. Technology and Computing   33. Psychology                \s
+                34. Sociology                    35. Political Science          36. Mythology                \s
                 37. Paranormal                   38. Travel                     39. Humor
                 --------------------------------------------------------------------------------------------------""");
         }
