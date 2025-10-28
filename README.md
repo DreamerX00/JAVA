@@ -1,8 +1,8 @@
 # ☕ JAVA Comprehensive Learning Repository
 
-<div align="center">
+<div style="text-align:center;">
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Java 25](https://img.shields.io/badge/Java%2025-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active%20Learning-brightgreen?style=for-the-badge)
@@ -16,18 +16,25 @@
 
 ---
 
+## 🆕 Latest updates (summary)
+- Updated to recommend Java 25 (JDK 25) as the development runtime.
+- `.gitignore` improved to an expert-level config (IDEs, build tools, OS files) and a stray entry was removed.
+- This `README.md` has been refreshed with the above changes and a small clarification in the setup steps.
+
+---
+
 ## 🎯 Welcome to my Java Mastery Journey!
 
 This repository represents my comprehensive Java learning experience, featuring everything from fundamental programming concepts to advanced data structures, algorithms, and real-world applications. It includes practical exercises, academic practicals, competitive programming solutions, and complete projects.
 
 ### 🌟 Repository Highlights
 - 📚 **Complete Learning Path** - From Java basics to advanced concepts
-- 💻 **Practical Implementation** - 100+ Java files with working examples
+- 💻 **Practical Implementation** - 260 Java files (practice + projects)
 - 🎯 **Academic Practicals** - University-level programming exercises
 - 📈 **Data Structures & Algorithms** - Comprehensive DSA implementations
 - 🔄 **Real Projects** - Library Management System and more
-- �️ **Database Integration** - MySQL connectivity and operations
-- � **Documentation** - Extensive notes and references
+- 🗄️ **Database Integration** - MySQL connectivity and operations
+- 📝 **Documentation** - Extensive notes and references
 
 ---
 
@@ -114,10 +121,10 @@ D:\JAVA\
 
 ### 📋 Prerequisites
 ```bash
-☕ Java Development Kit (JDK) 8 or higher
-�️ MySQL Server (for database-related projects)
-�🔧 Git for version control
-💻 IDE: Eclipse, IntelliJ IDEA, or VS Code
+# Recommended: Java Development Kit (JDK) 25 or higher
+# MySQL Server (for database-related projects)
+# Git for version control
+# IDE: Eclipse, IntelliJ IDEA (recommended), or VS Code
 ```
 
 ### 🚀 Quick Start Guide
@@ -128,16 +135,20 @@ D:\JAVA\
    cd JAVA
    ```
 
-2. **🏃‍♂️ Run basic Java programs:**
+2. **🏃‍♂️ Run basic Java programs (JDK 25 recommended):**
    ```bash
-   # Compile any Java file
-   javac 1st.java
+   # Set JAVA_HOME to JDK 25 and add javac/java to PATH
+   # Example (PowerShell):
+   # $env:JAVA_HOME = 'C:\Program Files\Java\jdk-25'
+   # $env:Path = "$env:JAVA_HOME\bin;" + $env:Path
+
+   # Compile with --release to target Java 25 compatibility
+   javac --release 25 1st.java
    java 1st
-   
-   # Or run practical exercises
-   cd Practicals
-   javac p1_rectangle.java
-   java p1_rectangle
+
+   # Or compile a file in src/ and run (example):
+   javac --release 25 src/CollectionFrameWork/arrayListOperations.java
+   java -cp src CollectionFrameWork.arrayListOperations
    ```
 
 3. **�️ Setup MySQL for database projects:**
@@ -302,13 +313,26 @@ D:\JAVA\
 ```
 
 ### 📊 Repository Statistics
-- **Total Java Files:** 100+ implementations
-- **Lines of Code:** 15,000+ lines
-- **Academic Practicals:** 17 completed exercises
-- **Major Projects:** 1 complete library management system
-- **Database Integration:** Full MySQL connectivity
-- **Learning Resources:** Comprehensive notes and documentation
-- **Topics Covered:** 40+ Java concepts and frameworks
+- **Total Java files:** 260
+- **Breakdown by major folders:**
+  - `src/` : 177 Java files (advanced topics, DSA, multi-threading, streams)
+  - `Practicals/` : 17 Java files (academic practicals)
+  - `Library_Managment_Project/` : 9 Java files (Library Management System)
+  - `DSA_Full_Coverage/` : 2 Java files (dynamic programming examples)
+  - Root & other folders (top-level, GFGCourse, etc.): ~55 Java files
+- **Estimated lines of code:** ~15,000 (approximate)
+- **Major projects:** Library Management System, multiple DSA and threading examples
+
+---
+
+## 🏁 Repository scan (auto-generated)
+Scan date: 2025-10-29
+- Total .java files found: 260
+- Main source tree: `src/` (177 files)
+- Practicals: `Practicals/` (17 files)
+- Projects: `Library_Managment_Project/` (9 files)
+- DSA_Full_Coverage/: (2 files)
+- Misc / root-level .java files: ~55
 
 ---
 
@@ -383,7 +407,7 @@ While this is primarily a personal learning repository, I welcome:
 
 ## 📞 Connect & Follow
 
-<div align="center">
+<div style="text-align:center;">
 
 [![GitHub](https://img.shields.io/badge/GitHub-DreamerX00-181717?style=for-the-badge&logo=github)](https://github.com/DreamerX00)
 [![Repository](https://img.shields.io/badge/Repository-JAVA-blue?style=for-the-badge&logo=java)](https://github.com/DreamerX00/JAVA)
@@ -394,7 +418,7 @@ While this is primarily a personal learning repository, I welcome:
 
 ---
 
-<div align="center">
+<div style="text-align:center;">
 
 ### 🌟 Thank you for exploring my comprehensive Java learning journey!
 
