@@ -83,7 +83,6 @@ Desktop.ini
 .idea/**/localHistory
 # temporary files from editors and tools
 *.cache
-.
 # Coverage reports
 /coverage/
 /target/site/
