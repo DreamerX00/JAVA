@@ -32,7 +32,7 @@
 # IDEs
 # ----------------------
 # IntelliJ IDEA
-/.idea/
+.idea/
 *.iml
 /out/
 # JetBrains project files (cache, workspace)
@@ -83,6 +83,10 @@ Desktop.ini
 .idea/**/localHistory
 # temporary files from editors and tools
 *.cache
+
+#Temporary folders
+.metadata/
+.sonarlint/
 # Coverage reports
 /coverage/
 /target/site/
